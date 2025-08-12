@@ -1,11 +1,11 @@
 import requests
 
-# --- CONFIG ---
-API_KEY = "87303cebb91e55cec0eea9aedb0ea50a"  # ← Replace with your exact key (keep quotes!)
+# CONFIG
+API_KEY = "87303cebb91e55cec0eea9aedb0ea50a" 
 SPORT = "mma_mixed_martial_arts"
 REGION = "us"
 
-# --- TEST CALL ---
+# TEST CALL
 def test_api():
     url = f"https://api.the-odds-api.com/v4/sports/{SPORT}/odds"
     params = {
