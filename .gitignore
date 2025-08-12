@@ -1,0 +1,5 @@
+mlb_odds.db
+__pycache__/
+*.pyc
+venv/
+.env
